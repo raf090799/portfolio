@@ -6,8 +6,42 @@
 
 h2{
     font-family: 'Nunito', sans-serif;
+    color: #007bff                      
 }
 h1{
     font-family: 'Nanum Gothic', sans-serif;
     font-size: 70px;
+}
+
+img{
+    width: 250px;
+    border-radius: 50%;
+    height: 350px;
+}
+ul{
+    list-style: none;
+    padding: 0;
+}
+
+#landing,
+#gallery{
+    height: 80vh;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.tools{
+    padding:25px;
+    height:200px;
+    border:5px solid #f2f2f2;
+    margin: 20px;
+    width: 75%;
+    color:white;
+}
+.nav-link{
+    text-transform: uppercase;
+}
+html{
+    scroll-behavior: smooth;
 }
